@@ -40,12 +40,12 @@ The OpenAI page is JavaScript-rendered; its indexed employer content supplied th
 
 ## Peer review task and record
 
-Ask a real classmate, without coaching: **“Find my research question and three employer sources. Then find my chosen portfolio direction, my individual project evidence, and the other research site.”** Record the exact stumbling point in a [GitHub issue](https://github.com/dlg309/ai-career-portfolio-plan/issues), link an accepted documentation change and its check, ask the reviewer to retry, and close the issue only after the retry succeeds.
+Ask a real classmate, without coaching: **“Find my research question and three employer sources. Then find my chosen portfolio direction, my individual project evidence, and the other research site.”** Use [partner review issue #2](https://github.com/dlg309/ai-career-portfolio-plan/issues/2) to record the exact stumbling point. Link an accepted documentation change and its check, ask the reviewer to retry, and close the issue only after the retry succeeds.
 
 | Field | Status |
 | --- | --- |
 | Reviewer / date | Pending real classmate review |
-| Specific observed GitHub feedback / issue | Pending |
+| Specific observed GitHub feedback / issue | [Issue #2](https://github.com/dlg309/ai-career-portfolio-plan/issues/2) is open for the review task; observed feedback pending |
 | Response and accepted change link | Pending |
 | Verification and reviewer retry | Pending |
 
@@ -54,8 +54,8 @@ Do not fill those fields with a simulated review. A useful issue records attempt
 ## Changed / Checked / Next
 
 - **Changed:** created the career research site and one public project record, with employer-source links, two directions, and links to the existing portfolio and programming research.
-- **Checked:** original employer descriptions and public project links on November 12, 2026. Local site checks and deployment status are recorded in the final handoff.
-- **Next:** complete a real classmate issue and retry; keep the personal role reflection and eligibility details in the private Canvas response.
+- **Checked:** original Palantir, OpenAI (indexed employer text), and Mayo Clinic descriptions on November 12, 2026; reciprocal link on the game research homepage; [GitHub Pages deployment succeeded](https://github.com/dlg309/ai-career-portfolio-plan/actions/runs/43290764869). Manual mobile and keyboard checks and partner retry remain unrun.
+- **Next:** complete [issue #2](https://github.com/dlg309/ai-career-portfolio-plan/issues/2) with a real classmate observation, response, linked change/check, and retry; keep the personal role reflection and eligibility details in the private Canvas response.
 
 ## Local use
 
