@@ -5,19 +5,23 @@
 **Repository:** https://github.com/dlg309/ai-career-portfolio-plan
 **Related programming research:** https://dlg309.github.io/ai-game-dev-research/
 
-This is the public, browsable research record for IS218-003 Review 1. It is a plan for a professional portfolio, not the finished portfolio or a claim of eligibility for a job. The [current portfolio](https://dlg309.github.io/Diego-Guevara-Portfolio/) and its [project record](https://github.com/dlg309/Diego-Guevara-Portfolio/blob/main/docs/PORTFOLIO_RECORD.md) provide the existing project context.
+This is a public research tool for IS218-003 Review 1. It helps an NJIT Business and Information Systems student investigate Forward Deployed Engineering and related work before an expected May 2028 graduation. It is not a claim of personal job eligibility. The [current portfolio](https://dlg309.github.io/Diego-Guevara-Portfolio/) and its [project record](https://github.com/dlg309/Diego-Guevara-Portfolio/blob/main/docs/PORTFOLIO_RECORD.md) present verified work to employers.
 
 ## Research question and decision
 
-**Question:** What evidence should an early-career software builder show to make a credible path toward customer-facing AI engineering?
+**Question:** How can I prepare for and secure a Forward Deployed Engineering or related AI engineering internship before graduating in May 2028?
 
-The working direction is practical software delivery with clear user needs, decisions, code, and checks. AI platform engineering remains a second direction to explore. These are public planning goals, not a statement of personal job eligibility. The full personal career reflection and private eligibility circumstances belong in Canvas.
+The working direction is practical software delivery with clear user needs, decisions, code, and checks. AI platform engineering remains a second direction to explore. The dashboard adds searchable employer records, a five-role comparison, evidence gaps, questions, a learning roadmap, and an action tracker. Action status uses browser local storage on one device; it does not sync. The full personal career reflection and private eligibility circumstances belong in Canvas.
 
 ## Source and verification method
 
-On **November 12, 2026**, I checked three original employer descriptions: [Palantir FDE New Grad, Commercial](https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728), [OpenAI Software Engineer, Agent Platform](https://jobs.ashbyhq.com/openai/783704d7-5afa-45aa-899b-1d6799f73004/), and [Mayo Clinic Senior Software Engineer, AI Platform Engineering](https://jobs.mayoclinic.org/job/rochester/senior-software-engineer-ai-platform-engineering/33647/102359411952). Responsibilities and qualifications on the site are paraphrases checked against the employer pages. A visible description is not proof that applications remain open. Recheck the original page before applying.
+On **November 12, 2026**, I retained the three original Review 1 descriptions: [Palantir FDE New Grad, Commercial](https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728), [OpenAI Software Engineer, Agent Platform](https://jobs.ashbyhq.com/openai/783704d7-5afa-45aa-899b-1d6799f73004/), and [Mayo Clinic Senior Software Engineer, AI Platform Engineering](https://jobs.mayoclinic.org/job/rochester/senior-software-engineer-ai-platform-engineering/33647/102359411952). I added [Palantir SWE Internship](https://jobs.lever.co/palantir/373eb939-6f57-4836-8479-be79a5e07249), [Palantir FDE Internship, Commercial](https://jobs.lever.co/palantir/d5486403-c050-4920-b2e0-91b69b61ebb2), [Amazon Data Engineer Internship, 2027 US](https://www.amazon.jobs/en/jobs/10553907/data-engineer-internship-2027-us), and [Partly Solutions Engineer Intern, US](https://jobs.ashbyhq.com/partly.com/842283ee-99bd-4dc0-bc9e-9a9567487217). Responsibilities and qualifications are paraphrases of employer material. A visible description is not proof that applications remain open.
 
 The OpenAI page is JavaScript-rendered; its indexed employer content supplied the description for this record. Its location metadata lists San Francisco and New York City while the body calls out San Francisco, so location needs confirmation. Palantir and OpenAI did not state a posting date or application deadline in the material reviewed. Mayo Clinic states a posting date of October 23, 2026. Mayo explicitly requires five years with a bachelor's degree or seven with an associate degree, making it a future-direction example.
+
+Palantir's commercial FDE internship states a December 2027 or Spring 2028 graduation window. Amazon's 2027 US data internship states October 2027 through December 2030. The Palantir SWE internship lists 2028. All three windows include May 2028, but this does not establish personal eligibility or current application status. Partly's graduation window is not stated. All seven records live in `research-data.mjs`; questions, skill assessments, roadmap entries, and actions are separated from rendering code there.
+
+The request mentions an ALPFA Points Tracking System and NJIT Foundation work. The public portfolio record documents an ALPFA app, but does not verify that it is the same points system or all claimed features. The site labels these as evidence candidates and leaves private operational details out. Project contributions and outcomes should be checked before turning them into application claims.
 
 ## Portfolio project record
 
@@ -53,10 +57,10 @@ Do not fill those fields with a simulated review. A useful issue records attempt
 
 ## Changed / Checked / Next
 
-- **Changed:** created the career research site and one public project record, with employer-source links, two directions, and links to the existing portfolio and programming research.
-- **Checked:** original Palantir, OpenAI (indexed employer text), and Mayo Clinic descriptions on November 12, 2026; reciprocal link on the game research homepage; [GitHub Pages deployment succeeded](https://github.com/dlg309/ai-career-portfolio-plan/actions/runs/43290764869). Manual mobile and keyboard checks and partner retry remain unrun.
-- **Next:** complete [issue #2](https://github.com/dlg309/ai-career-portfolio-plan/issues/2) with a real classmate observation, response, linked change/check, and retry; keep the personal role reflection and eligibility details in the private Canvas response.
+- **Changed:** replaced the large opening with a research dashboard; added seven structured employer records, search filters, five-role comparison, evidence gaps, learning roadmap, questions, and a browser-local action tracker. The original Review 1 cards, portfolio decision, and cross-links remain.
+- **Checked:** original employer descriptions and key links on November 12, 2026; `npm test` passed focused search, comparison, persistence, and citation-integrity tests, `npm run build` produced seven static files, JS syntax and internal anchors were checked, and local HTTP served the page and module assets. Manual mobile and keyboard checks and partner retry remain unrun because browser access was unavailable. The latest deployment status is checked after publication.
+- **Next:** complete [issue #2](https://github.com/dlg309/ai-career-portfolio-plan/issues/2) with a real classmate observation, response, linked change/check, and retry; verify project contribution and individual application conditions before using them as claims.
 
 ## Local use
 
-The site is static. Open `index.html` or serve the repository root with a local web server. GitHub Pages deploys the root files through `.github/workflows/pages.yml` on pushes to `main`.
+The site is static and uses JavaScript modules, so serve the repository root with a local web server rather than opening `index.html` as a file. Run `npm test` for the search, comparison, and persistence tests; `npm run build` creates `dist/`. GitHub Pages deploys `dist/` through `.github/workflows/pages.yml` on pushes to `main`.
