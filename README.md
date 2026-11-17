@@ -9,7 +9,7 @@ This is a public research tool for IS218-003 Review 1. It helps an NJIT Business
 
 ## Research question and decision
 
-**Question:** How can I prepare for and secure a Forward Deployed Engineering or related AI engineering internship before graduating in May 2028?
+**Question:** How can I earn a 2027 technology internship and build toward graduation in May 2028?
 
 The working direction is practical software delivery with clear user needs, decisions, code, and checks. AI platform engineering remains a second direction to explore. The dashboard adds searchable employer records, a five-role comparison, evidence gaps, questions, a learning roadmap, and an action tracker. Action status uses browser local storage on one device; it does not sync. The full personal career reflection and private eligibility circumstances belong in Canvas.
 
@@ -22,6 +22,8 @@ The OpenAI page is JavaScript-rendered; its indexed employer content supplied th
 Palantir's commercial FDE internship states a December 2027 or Spring 2028 graduation window. Amazon's 2027 US data internship states October 2027 through December 2030. The Palantir SWE internship lists 2028. All three windows include May 2028, but this does not establish personal eligibility or current application status. Partly's graduation window is not stated. All seven records live in `research-data.mjs`; questions, skill assessments, roadmap entries, and actions are separated from rendering code there.
 
 The request mentions an ALPFA Points Tracking System and NJIT Foundation work. The public portfolio record documents an ALPFA app, but does not verify that it is the same points system or all claimed features. The site labels these as evidence candidates and leaves private operational details out. Project contributions and outcomes should be checked before turning them into application claims.
+
+On **November 17, 2026**, Amazon's original 2027 data internship description was reachable and still displayed its responsibilities, qualifications, graduation window, and an Apply link. This check does not establish an application deadline or personal eligibility. Palantir's Lever pages returned 403 to the research tool; Partly's page required JavaScript. Their records retain the November 12 description check and should be rechecked manually before use. No DevOps/SRE, cybersecurity, or banking internship was added without an original posting.
 
 ## Portfolio project record
 
@@ -44,14 +46,14 @@ The request mentions an ALPFA Points Tracking System and NJIT Foundation work. T
 
 ## Peer review task and record
 
-Ask a real classmate, without coaching: **“Find my research question and three employer sources. Then find my chosen portfolio direction, my individual project evidence, and the other research site.”** Use [partner review issue #2](https://github.com/dlg309/ai-career-portfolio-plan/issues/2) to record the exact stumbling point. Link an accepted documentation change and its check, ask the reviewer to retry, and close the issue only after the retry succeeds.
+Ask a real classmate, without coaching: **“Find my research question and three employer sources. Then find my chosen portfolio direction, my individual project evidence, and the other research site.”** [Issue #2](https://github.com/dlg309/ai-career-portfolio-plan/issues/2) contains the task, but is closed with no comments and still describes feedback as pending. Its closure is not evidence of a completed retry.
 
 | Field | Status |
 | --- | --- |
-| Reviewer / date | Pending real classmate review |
-| Specific observed GitHub feedback / issue | [Issue #2](https://github.com/dlg309/ai-career-portfolio-plan/issues/2) is open for the review task; observed feedback pending |
-| Response and accepted change link | Pending |
-| Verification and reviewer retry | Pending |
+| Reviewer / date | [jasdeepn24 in issue #3](https://github.com/dlg309/ai-career-portfolio-plan/issues/3), created November 16, 2026 |
+| Specific observed GitHub feedback / issue | Main navigation lacked a Portfolio Design link to the existing section. |
+| Response and accepted change link | The link is now in the main menu. [The owner reported a live link and heading check](https://github.com/dlg309/ai-career-portfolio-plan/issues/3#issuecomment-6920983168). |
+| Verification and reviewer retry | Owner check reported; same-reviewer retry not recorded. |
 
 Do not fill those fields with a simulated review. A useful issue records attempted steps, expected and actual results, the change link, the check, and the retry result.
 
@@ -59,7 +61,11 @@ Do not fill those fields with a simulated review. A useful issue records attempt
 
 - **Changed:** replaced the large opening with a research dashboard; added seven structured employer records, search filters, five-role comparison, evidence gaps, learning roadmap, questions, and a browser-local action tracker. The original Review 1 cards, portfolio decision, and cross-links remain.
 - **Checked:** original employer descriptions and key links on November 12, 2026; `npm test` passed focused search, comparison, persistence, and citation-integrity tests, `npm run build` produced seven static files, JS syntax and internal anchors were checked, and local HTTP served the page and module assets. Manual mobile and keyboard checks and partner retry remain unrun because browser access was unavailable. The latest deployment status is checked after publication.
-- **Next:** complete [issue #2](https://github.com/dlg309/ai-career-portfolio-plan/issues/2) with a real classmate observation, response, linked change/check, and retry; verify project contribution and individual application conditions before using them as claims.
+- **Next:** ask the issue #3 reviewer to retry and record the actual result; verify project contribution and individual application conditions before using them as claims.
+
+## November 17 plan update
+
+The site now has a ranked 2027 internship strategy, dated milestones, a project-to-skill evidence map, portfolio and résumé checks, and an engineering/AI workflow with acceptance criteria. These are plans; action statuses still begin as **Not started** unless the visitor changes them locally. The main portfolio repository and external accounts were not edited.
 
 ## Local use
 
